@@ -1,0 +1,18 @@
+﻿  Entity.cpp
+  Renderer.cpp
+  Transform.cpp
+  main.cpp
+C:\Users\kabboud\source\TestDirectX\Architecture EC\Entity.inl(5,54): warning C4244: 'argument' : conversion de '_Ty' en 'float', perte possible de données
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\kabboud\source\TestDirectX\Architecture EC\main.cpp(8,34): message : voir la référence à l'instanciation de la fonction modèle 'T *Entity::AddComponent<Transform,int,int>(int &&,int &&)' en cours de compilation
+          with
+          [
+              T=Transform
+          ]
+  Génération de code en cours...
+  Architecture EC.vcxproj -> C:\Users\kabboud\source\TestDirectX\x64\Debug\Architecture EC.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.

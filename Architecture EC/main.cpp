@@ -1,20 +1,25 @@
-// Architecture EC.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
-//
+#include "Entity.h"
+#include "Transform.h"
+#include "Renderer.h"
 
-#include <iostream>
+int main() {
+    Entity player(1);
 
-int main()
-{
-    std::cout << "Hello World!\n";
+    Transform* transform = player.AddComponent<Transform>(10, 20);
+
+    Transform* retrieved = player.GetComponent<Transform>();
+    if (retrieved) {
+        Vector2 pos = retrieved->GetPosition();
+        std::cout << "Position: (" << pos.x << ", " << pos.y << ")\n";
+
+        retrieved->SetPosition(30, 40);
+        pos = retrieved->GetPosition();
+        std::cout << "New Position: (" << pos.x << ", " << pos.y << ")\n";
+    }
+
+    player.AddComponent<Renderer>();
+
+    player.Update();
+
+    return 0;
 }
-
-// Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
-// Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage
-
-// Astuces pour bien démarrer : 
-//   1. Utilisez la fenêtre Explorateur de solutions pour ajouter des fichiers et les gérer.
-//   2. Utilisez la fenêtre Team Explorer pour vous connecter au contrôle de code source.
-//   3. Utilisez la fenêtre Sortie pour voir la sortie de la génération et d'autres messages.
-//   4. Utilisez la fenêtre Liste d'erreurs pour voir les erreurs.
-//   5. Accédez à Projet > Ajouter un nouvel élément pour créer des fichiers de code, ou à Projet > Ajouter un élément existant pour ajouter des fichiers de code existants au projet.
-//   6. Pour rouvrir ce projet plus tard, accédez à Fichier > Ouvrir > Projet et sélectionnez le fichier .sln.
