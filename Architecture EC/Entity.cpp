@@ -2,14 +2,14 @@
 #include <iostream>
 
 Entity::~Entity() {
-    for (auto& pair : m_components) {
-        delete pair.second;
+    for (auto& component : m_components) {
+        delete this;
     }
     m_components.clear();
 }
 
 void Entity::Update() {
-    for (auto& pair : m_components) {
-        pair.second->Update();
+    for (auto& component : m_components) {
+		this->Update();
     }
 }

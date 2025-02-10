@@ -1,12 +1,11 @@
 #pragma once
-#include <map>
-#include <typeindex>
 #include "Component.h"
+#include <vector>
 
 class Entity {
 private:
     int m_id;
-    std::map<std::type_index, Component*> m_components;
+	std::vector<Component*> m_components;
 
 public:
     Entity(int id) : m_id(id) {}

@@ -1,6 +1,8 @@
+#pragma once
 #include "Entity.h"
 #include "Transform.h"
 #include "Renderer.h"
+#include <iostream>
 
 int main() {
     Entity player(1);

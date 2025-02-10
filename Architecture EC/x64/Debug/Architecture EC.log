@@ -1,18 +1,148 @@
 ﻿  Entity.cpp
-  Renderer.cpp
-  Transform.cpp
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(3,28): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(10,22): error C3861: 'm_id' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(11,5): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(3,28): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(10,22): error C2065: 'm_id' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(11,5): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(17,28): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(17,28): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,20): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,48): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(29,36): error C3861: 'm_id' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(31,17): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,20): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,48): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(29,36): error C2065: 'm_id' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(31,17): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Entity.cpp')
+  
   main.cpp
-C:\Users\kabboud\source\TestDirectX\Architecture EC\Entity.inl(5,54): warning C4244: 'argument' : conversion de '_Ty' en 'float', perte possible de données
-          with
-          [
-              _Ty=int
-          ]
-C:\Users\kabboud\source\TestDirectX\Architecture EC\main.cpp(8,34): message : voir la référence à l'instanciation de la fonction modèle 'T *Entity::AddComponent<Transform,int,int>(int &&,int &&)' en cours de compilation
-          with
-          [
-              T=Transform
-          ]
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(3,28): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(10,22): error C3861: 'm_id' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(11,5): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(3,28): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(10,22): error C2065: 'm_id' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(11,5): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(17,28): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(17,28): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,20): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,48): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(29,36): error C3861: 'm_id' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(31,17): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,20): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,48): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(29,36): error C2065: 'm_id' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(31,17): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'main.cpp')
+  
+  Renderer.cpp
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(3,28): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(10,22): error C3861: 'm_id' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(11,5): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(3,28): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(10,22): error C2065: 'm_id' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(11,5): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(17,28): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(17,28): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,20): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,48): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(29,36): error C3861: 'm_id' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(31,17): error C3861: 'm_components' : identificateur introuvable
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,20): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(27,48): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(29,36): error C2065: 'm_id' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
+C:\Users\kabboud\Documents\GitHub\TestDirectX\Architecture EC\Entity.inl(31,17): error C2065: 'm_components' : identificateur non déclaré
+  (compiler le fichier source 'Renderer.cpp')
+  
   Génération de code en cours...
-  Architecture EC.vcxproj -> C:\Users\kabboud\source\TestDirectX\x64\Debug\Architecture EC.exe
-  'pwsh.exe' n'est pas reconnu en tant que commande interne
-  ou externe, un programme exécutable ou un fichier de commandes.

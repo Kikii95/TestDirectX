@@ -1,5 +1,4 @@
 #pragma once
-#define basic_ostream 0
 #include <iostream>
 
 class Entity;
