@@ -129,13 +129,16 @@
   <ItemGroup>
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="Exo jour 2 Moteur.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Transform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Component.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entity.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

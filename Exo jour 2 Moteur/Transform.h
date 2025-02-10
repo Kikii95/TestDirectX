@@ -22,6 +22,9 @@ public:
 	Transform(Entity* entity);
     ~Transform();
 
+    int GetID() const;
+    void Update() override;
+
     void Identity();
     void FromMatrix(DirectX::XMFLOAT4X4* matrix);
     void UpdateRotationFromVector();
@@ -38,4 +41,7 @@ public:
     void RotateWorldY(float angle);
     void RotateWorldZ(float angle);
 
+    void PrintRotation() const;
+
 };
+

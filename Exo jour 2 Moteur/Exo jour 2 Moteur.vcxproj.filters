@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exo jour 2 Moteur.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="Transform.cpp">
@@ -38,5 +38,10 @@
     <ClInclude Include="Entity.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entity.inl">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </None>
   </ItemGroup>
 </Project>

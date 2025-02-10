@@ -3,11 +3,19 @@
 
 using namespace DirectX;
 
-Transform::Transform(Entity* entity) : Component(entity), m_id(entity->GetID()) {
+Transform::Transform(Entity* entity) : Component(entity) {
 	Identity();
 }
 
 Transform::~Transform() {
+}
+
+int Transform::GetID() const {
+    return m_pEntity->GetID();
+}
+
+void Transform::Update() {
+    UpdateMatrix();
 }
 
 void Transform::Identity() {
@@ -109,4 +117,22 @@ void Transform::RotateWorldZ(float angle) {
     XMVECTOR currentQuat = XMLoadFloat4(&qRot);
     currentQuat = XMQuaternionMultiply(currentQuat, rotationQuat);
     XMStoreFloat4(&qRot, currentQuat);
+}
+
+void Transform::PrintRotation() const {
+    DirectX::XMVECTOR quaternion = XMLoadFloat4(&qRot);
+    DirectX::XMVECTOR axis;
+    float angle;
+
+    DirectX::XMQuaternionToAxisAngle(&axis, &angle, quaternion);
+
+    angle = DirectX::XMConvertToDegrees(angle);
+
+    DirectX::XMFLOAT3 axisFloat;
+    XMStoreFloat3(&axisFloat, axis);
+
+    std::cout << "Rotation actuelle : Angle = " << angle
+        << "° autour de l'axe (" << axisFloat.x
+        << ", " << axisFloat.y
+        << ", " << axisFloat.z << ")" << std::endl;
 }
